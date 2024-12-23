@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes changeBackground {
+            0% { background-image: url('https://static.toiimg.com/photo/71277920.cms'); }
+            50% { background-image: url('https://www.cae.net/wp-content/uploads/2024/07/elearning-classroom.jpg'); }
+            100% { background-image: url('https://elearningindustry.com/wp-content/uploads/2023/11/Why-Are-Examples-Important-In-The-Teaching-And-Learning-Process.jpg'); }
+        }
+
+        body {
+            animation: changeBackground 15s infinite;
+            background-size: cover;
+            background-position: center;
+            min-height: 80vh;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#a6bfef',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="flex md:flex justify-center items-center flex-col">
+    <header class="w-full py-8 flex md:flex bg-blue-600 size-16 flex justify-between items-center  " >
+        <div class="text-white text-2xl">
+            <h3 class="" > Bienvenu sur la plateforme TCF canada</h3>
+   </div>
+
+    <div class="mx-2 justify-end flex gap-4"> <a href="FORMATION.html" class="text-white border-l-2"><i class="fa-solid fa-graduation-cap"></i>FORMATION</a>
+    <a href="TARIFS.html" class=" text-white border-l-2 "><i class="fa-solid fa-credit-card"></i>TARIFS</a>
+    <a href="CONTACTEZ-NOUS.html" class=" text-white border-l-2 "><i class="fa-solid fa-headphones-simple"></i> CONTACTEZ-NOUS</a>
+    <a href="#" class=" text-white border-l-2 "><i class="fa-brands fa-facebook"></i></a>
+    <a href="#" class="text-white"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#" class="text-white"><i class="fa-brands fa-whatsapp"></i></a>
+   <a href="#" class="text-white"><i class="fa-brands fa-square-youtube"></i></a>   
+    </div>
+    
+    
+</header>
+<div class="bg-white h-24 w-full ">
+    <img src="image/logo-tcf-logo-e1661831845386 (1).jpg" class="w-[50px]" alt="">
+        <div class="flex justify-center text-sm not-italic my-0 gap-2 font-mono  " >
+        <a href="#" class="text-blue-500 hover:text-blue-700 "><i class="fa-solid fa-book"></i>EXPRESSION ECRITE</a>
+
+    
+        <a href="#" class=" space-x-4  "><i class="fa-solid fa-people-arrows"></i>EXPRESSION ORALE</a>
+        <a href="#" class="btn"><i class="fa-solid fa-user-pen"></i>COMPREHENSION ECRITE</a>
+        <a href="#" class="btn"><i class="fa-solid fa-headphones"></i>COMPREHENSION ORALE</a>
+        <a href="inscription.html" class="btn"><i class="fa-solid fa-user-plus"></i></i>S'INCRIRE</a>
+        <a href="formulaire.html" class="btn"><i class="fa-solid fa-satellite-dish"></i>CONNECTER</a></div>
+        <!-- <div class="tfc">    <a href="#" class="btn">canada</a> -->
+</div> 
+<div class="">
+    <div class=" bg-white  md:flex my-10 rounded-2xl flex  items-center  ">
+        <img class="  flex-1 md:h-full object-cover" src="image/ordi.jpeg" alt="" style="width: 300px; height: 500px;" >
+        <div class="p-4 flex-1 md:flex md:flex-col justify-center ">
+            <div  class="flex-1 ">
+                <a href="form_connexion.html" class="bg-zinc-300 py-[10px] px-[20px] ">Connexion</a>
+                <button class="bg-sky-600 py-[10px] px-[20px] font-bold text-white">Inscription</button> 
+              </div>
+              <div class="mt-5 pr-1 border border-zinc-400 rounded-md flex justify-between items-center">
+                <span ><i class="fa-solid fa-user-plus rounded-l-md p-4 bg-zinc-300 "></i></span>
+                <input type="text" placeholder="Nom d'utilisateur" class="border-l p-3 border-zinc-400 flex-grow outline-none" >
+              </div>
+        
+              <div class="mt-5 pr-1 border border-zinc-400 rounded-md flex justify-between items-center">
+                <span ><i class="fa-solid fa-at rounded-l-md p-4 bg-zinc-300 bg"></i></span>
+                <input type="text" placeholder="Email" class="border-l p-3 border-zinc-400 flex-grow outline-none" >
+              </div>
+        
+              <div class="mt-5 pr-1 border border-zinc-400 rounded-md flex justify-between items-center">
+                <span ><i class="fa-solid fa-user rounded-l-md p-4 bg-zinc-300 bg"></i></span>
+                <input type="text" placeholder="Nom complet" class="border-l p-3 border-zinc-400 flex-grow outline-none" >
+              </div>
+        
+              <div class="mt-5 pr-1 border border-zinc-400 rounded-md flex justify-between items-center">
+                <span ><i class="fa-solid fa-phone rounded-l-md p-4 bg-zinc-300 bg"></i></span>
+                <input type="text" placeholder="Numero de telephone" class="border-l p-3 border-zinc-400 flex-grow outline-none" >
+              </div>
+        
+              <div class="mt-5 pr-1 border border-zinc-400 rounded-md flex justify-between items-center">
+                <span><i class="fa-solid fa-key text-1xl rounded-l-md p-4 bg-zinc-300 bg"></i></span>
+                <input type="text" placeholder="Mot de passe" class="border-l p-3 border-zinc-400 flex-grow outline-none" >
+                <i class="fa-sharp fa-solid fa-eye"></i>
+              </div>
+        
+            <button class="flex justify-center w-full bg-blue-500 my-8 px-12 py-1 border-none rounded-3xl font-bold text-white">
+              S'INSCRIRE
+            </button>
+            </div>
+        
+    </div>
+</div>
+
+    
+    <footer class="bg-blue-600 text-white py-10 w-full md:w-full">
+        <!--       ici adapte ton footer ou tu le laisse ainsi-->
+           <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
+    
+               <!-- Section: Les Pages -->
+               <div>
+                   <h3 class="font-bold text-lg mb-4">Les pages</h3>
+                   <ul>
+                    <li>
+                        <a href="acceuil.html"><i class="fa-solid fa-house"></i>PAGE D"ACCEUIL</a>
+                    </li>
+                    <hr width="65%">
+                    <li>
+                        <a href="#" class="btn"><i class="fa-solid fa-book"></i>EXPRESSION ECRITE</a>   
+                    </li>
+                    <hr width="65%">
+                    <li>
+                        <a href="#" class="btn"><i class="fa-solid fa-people-arrows"></i>EXPRESSION ORALE</a>   
+                    </li>
+                    <hr width="65%">
+                    <li>
+                        <a href="#" class="btn"><i class="fa-solid fa-user-pen"></i>COMPREHENSION ECRITE</a></a>   
+                    </li>
+                    <hr width="65%">
+                    <li>
+                        <a href="#" class="btn"><i class="fa-solid fa-headphones"></i>COMPREHENSION ORALE</a>   
+                    </li>
+                    <hr width="65%">
+                    <li>
+                        <a href="#" class="btn"><i class="fa-solid fa-headphones"></i>Politique retour </a>   
+                    </li>
+                    <hr width="65%">
+                    <li>
+                        <a href="#" class="btn"><i class="fa-solid fa-headphones"></i>Politique confidentialite</a>   
+                    </li>
+                   </ul>
+               </div>
+    
+               <!-- Section: Paramètre du compte -->
+               <div>
+                   <h3 class="font-bold text-lg mb-4">Paramètre du compte</h3>
+                   <div class=" ">
+                    <ul>
+                        <li><a href="formulaire.html" class="hover:bg-white hover:text-black text-white  "> <i class="fa-solid fa-user-plus"></i>Se connecter</a></li>
+                        <li><a href="inscription.html" class="hover:bg-white hover:text-black text-white "><i class="fa-solid fa-satellite-dish"></i> S'inscrire</a></li>
+                        <li><a href="#" class="hover:bg-white hover:text-black text-white "><i class="fa-solid fa-key"></i> Mot de passe oublié</a></li>
+                    </ul>
+                   </div>
+                   
+               </div>
+    
+               <!-- Section: Nos Réseaux Sociaux & À propos de nous -->
+               <div>
+                   <h3 class="font-bold text-lg mb-4 bg-blue-600">Nos Réseaux Sociaux</h3>
+                   <div class="flex space-x-4 mb-6 ">
+                       <a href="#" class="hover:opacity-75 colors-blue"><img src="image/facemodif.jpg" width="20px" class="rounded-full" alt=""></a>
+                       <a href="#" class="hover:opacity-75"><img src="image/instamodif.jpg" width="20px"  class="rounded-full" alt=""></a>
+                       <a href="#" class="hover:opacity-75"><img src="image/youtubemodif.jpg"  width="20px"  class="rounded-full" alt=""></a>
+                       <a href="#" class="hover:opacity-75"><img src="image/whassapmodif.jpg"  width="20px"  class="rounded-full" alt=""></a>
+                   </div>
+                   <h3 class="font-bold text-lg mb-4">À propos de nous</h3>
+                   <p class="text-sm">
+                       Plateforme spécialisée dans la préparation au TCF Canada tests à conditions réelles, sujets récents.
+                   </p>
+               </div>
+    
+               <!-- Section: Nous acceptons -->
+               <div>
+                   <h3 class="font-bold text-lg mb-4 ">Nous acceptons</h3>
+                   <div class="grid grid-cols-3 gap-2 ">
+                       <img src="image/orange money.webp" class="">
+                   </div>
+                   <button class="mt-4 bg-white text-blue-600 px-4 py-2 rounded-full font-bold hover:bg-gray-100">
+                       Cliquez ici
+                   </button>
+               </div>
+    
+           </div>
+       </footer>
+       <footer class="flex justify-between items-center bg-white md:flex">
+        <div>
+            <span>TCF CA TEST C 2024 </span> Tous les droits sont reserves.
+        </div>
+        <div>
+            <img src="image/payments.webp" alt="">
+        </div>
+       </footer>
+    
+    
+    
+</body>
+</html>
